@@ -1,6 +1,6 @@
 /* Global */
 .title{
-    margin-top: 126px;
+    margin-top: 112px;
     font-size: 42px;
 }
 .subtitle{
@@ -10,6 +10,8 @@
 }
 .container{
     text-align: center;
+    margin-top: 0;
+    padding: 0;
 }
 /* Navigation */
 nav a{
@@ -51,6 +53,7 @@ header  .btn{
     width: 100%;
     text-align: center;
     margin: 35px auto;
+    padding-bottom: 25px;
     .card{
         margin-top: 30px;
         justify-content: space-around;
@@ -81,14 +84,51 @@ header  .btn{
 }
 
 /* Portfolio */
-
+.our-portfolio{
+    background-color: lightgrey;
+    padding-bottom: 96px;
+    padding-top: 1px;
+}
 .portfolio{
+    padding: 10px 0;
     display: flex;
     width: 100%;
     flex-wrap: wrap;
+    justify-content: space-between ;
 }
 .portfolio .card{
-    height: 300px;
-    width: 28%;
-    margin: 24px;
+    justify-content: space-between;
+    max-height:400px;
+    width: 32.3334%;
+    margin: 12px 6px;
+}
+.portfolio .card-image{
+    img{
+        height: 250px;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+.portfolio .card-description{
+    h5{
+        font-size: smaller;
+    }
+    h4{
+        font-size: 1.5rem;
+    }
+}
+
+.portfolio .btn{
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    opacity: 0;
+}
+.portfolio .card:hover{
+    img{
+        opacity: 0.8;
+    }
+    .btn{
+        opacity: 1
+    }
 }
