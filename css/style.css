@@ -1,0 +1,105 @@
+/* Global */
+.title {
+  margin-top: 126px;
+  font-size: 42px;
+}
+
+.subtitle {
+  margin-top: 12px;
+  font-style: italic;
+  margin-bottom: 64px;
+}
+
+.container {
+  text-align: center;
+}
+
+/* Navigation */
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Header */
+header {
+  color: white;
+  width: 100%;
+  background-image: url(https://i.postimg.cc/QxJc4CrT/konie.jpg);
+  height: 960px;
+  background-size: cover;
+  background-position: center;
+}
+
+header h2 {
+  margin-top: 300px;
+}
+
+header h1 {
+  padding: 10px 0 18px 0;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+header .btn {
+  font-size: small;
+  padding: 6px 12px 6px 12px;
+  color: white;
+  padding: 10px 20px;
+}
+
+/* Services */
+.SERVICES {
+  text-align: center;
+}
+
+.SERVICES .flex {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  margin: 35px auto;
+}
+.SERVICES .flex .card {
+  margin-top: 30px;
+  justify-content: space-around;
+  width: 33%;
+  text-align: center;
+  align-items: center;
+  margin-inline: 20px;
+  border: none;
+}
+
+.SERVICES .card .card-image {
+  font-size: 0px;
+  margin-bottom: 15px;
+}
+.SERVICES .card .card-image i {
+  color: rgb(255, 173, 42);
+  border: solid 2px rgb(255, 173, 42);
+  font-size: 30px;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Portfolio */
+.portfolio {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.portfolio .card {
+  height: 300px;
+  width: 28%;
+  margin: 24px;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxXQUFBO0FBQ0E7RUFDSSxpQkFBQTtFQUNBLGVBQUE7QUNDSjs7QURDQTtFQUNJLGdCQUFBO0VBQ0Esa0JBQUE7RUFDQSxtQkFBQTtBQ0VKOztBREFBO0VBQ0ksa0JBQUE7QUNHSjs7QUREQSxlQUFBO0FBQ0E7RUFDSSxxQkFBQTtFQUNBLFlBQUE7RUFDQSxpQkFBQTtFQUNBLGVBQUE7QUNJSjs7QURGQSxXQUFBO0FBQ0E7RUFDSSxZQUFBO0VBQ0EsV0FBQTtFQUNBLDhEQUFBO0VBQ0EsYUFBQTtFQUNBLHNCQUFBO0VBQ0EsMkJBQUE7QUNLSjs7QURIQTtFQUNJLGlCQUFBO0FDTUo7O0FESkE7RUFDSSxzQkFBQTtFQUNBLGVBQUE7RUFDQSxpQkFBQTtBQ09KOztBRExBO0VBQ0ksZ0JBQUE7RUFDQSwwQkFBQTtFQUNBLFlBQUE7RUFDQSxrQkFBQTtBQ1FKOztBRExBLGFBQUE7QUFDQTtFQUNJLGtCQUFBO0FDUUo7O0FETkE7RUFDSSxhQUFBO0VBQ0EsV0FBQTtFQUNBLGtCQUFBO0VBQ0EsaUJBQUE7QUNTSjtBRFJJO0VBQ0ksZ0JBQUE7RUFDQSw2QkFBQTtFQUNBLFVBQUE7RUFDQSxrQkFBQTtFQUNBLG1CQUFBO0VBQ0EsbUJBQUE7RUFDQSxZQUFBO0FDVVI7O0FEUEE7RUFDSSxjQUFBO0VBQ0EsbUJBQUE7QUNVSjtBRFRJO0VBQ0ksd0JBQUE7RUFDQSxtQ0FBQTtFQUNBLGVBQUE7RUFDQSxrQkFBQTtFQUNBLFdBQUE7RUFDQSxZQUFBO0VBQ0EsaUJBQUE7QUNXUjs7QURQQTtFQUNJLGVBQUE7RUFDQSxpQkFBQTtBQ1VKOztBRFBBLGNBQUE7QUFFQTtFQUNJLGFBQUE7RUFDQSxXQUFBO0VBQ0EsZUFBQTtBQ1NKOztBRFBBO0VBQ0ksYUFBQTtFQUNBLFVBQUE7RUFDQSxZQUFBO0FDVUoiLCJmaWxlIjoic3R5bGUuY3NzIn0= */
